@@ -12,6 +12,9 @@ modify it under the same terms as Perl itself.
 Required Modules:
  Log::Dispatch (1.16)
 
+Version:
+ 0.02
+
 The build is standard:
 
 perl Makefile.PL

@@ -4,7 +4,7 @@ use base 'Log::Dispatch::Output';
 # Make sure we have version info for this module
 # Be strict from now on
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 use strict;
 
 # Satisfy require
@@ -97,6 +97,10 @@ Log::Dispatch::Buffer - Base class for collecting logged messages
 
  $channel->flush;
 
+=head1 VERSION
+
+This documentation describes version 0.02.
+
 =head1 DESCRIPTION
 
 The "Log::Dispatch::Buffer" module is a base class that can als be used by
@@ -146,7 +150,7 @@ Please report bugs to <perlbugs@dijkmat.nl>.
 
 =head1 COPYRIGHT
 
-Copyright (c) 2004 Elizabeth Mattijsen <liz@dijkmat.nl>. All rights
+Copyright (c) 2004, 2007 Elizabeth Mattijsen <liz@dijkmat.nl>. All rights
 reserved.  This program is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.
 
